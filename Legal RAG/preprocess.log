@@ -1,0 +1,4 @@
+2026-03-12 10:41:09,606  INFO      Found 26688 PDF files across 1950–2025
+2026-03-12 10:47:00,027  INFO      Done — 1077781 chunks written to C:\Umesh\project_RAG\supreme_court_judgments\chunks.jsonl  |  0 files failed
+2026-03-13 11:05:58,363  INFO      Found 26688 PDF files across 1950–2025
+2026-03-13 11:11:58,075  INFO      Done — 919518 chunks written to C:\Umesh\project_RAG\supreme_court_judgments\chunks.jsonl  |  0 files failed
