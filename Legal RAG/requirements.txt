@@ -1,0 +1,10 @@
+PyMuPDF
+tqdm 
+transformers
+tokenizers  
+sentencepiece
+protobuf
+numpy
+huggingface_hub
+jsonlines 
+torch
