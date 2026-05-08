@@ -1,0 +1,587 @@
+2026-03-25 17:36:43,669  INFO      ============================================================
+2026-03-25 17:36:43,669  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 17:36:43,669  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:36:43,669  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 17:36:43,669  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 17:36:43,669  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 17:36:43,669  INFO      Dry run     : True
+2026-03-25 17:36:43,669  INFO      Merge after : False
+2026-03-25 17:36:43,685  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 17:36:43,685  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 17:36:43,685  INFO      ============================================================
+2026-03-25 17:36:43,685  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:36:43,691  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 17:36:43,692  INFO      VRAM : 17.2 GB
+2026-03-25 17:36:43,699  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 17:36:43,702  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 17:36:43,703  INFO      Loading datasets...
+2026-03-25 17:36:43,727  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 17:36:43,727  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 17:36:43,727  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:36:43,846  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 17:36:43,847  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 17:36:43,847  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:36:43,848  INFO      VRAM before load: 0.0 GB used
+2026-03-25 17:36:49,748  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 17:36:49,772  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 17:36:49,772  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 17:36:50,110  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 17:48:32,735  INFO      ============================================================
+2026-03-25 17:48:32,735  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 17:48:32,735  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:48:32,735  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 17:48:32,735  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 17:48:32,735  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 17:48:32,735  INFO      Dry run     : True
+2026-03-25 17:48:32,735  INFO      Merge after : False
+2026-03-25 17:48:32,735  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 17:48:32,735  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 17:48:32,735  INFO      ============================================================
+2026-03-25 17:48:32,735  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:48:32,735  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 17:48:32,735  INFO      VRAM : 17.2 GB
+2026-03-25 17:48:32,748  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 17:48:32,751  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 17:48:32,751  INFO      Loading datasets...
+2026-03-25 17:48:32,782  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 17:48:32,784  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 17:48:32,784  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:48:32,884  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 17:48:32,884  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 17:48:32,885  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 17:48:32,885  INFO      VRAM before load: 0.0 GB used
+2026-03-25 17:48:38,748  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 17:48:38,770  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 17:48:38,770  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 17:48:39,113  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:02:51,222  INFO      ============================================================
+2026-03-25 18:02:51,222  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:02:51,222  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:02:51,222  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:02:51,222  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:02:51,222  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:02:51,222  INFO      Dry run     : True
+2026-03-25 18:02:51,222  INFO      Merge after : False
+2026-03-25 18:02:51,222  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:02:51,222  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:02:51,222  INFO      ============================================================
+2026-03-25 18:02:51,222  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:02:51,222  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:02:51,222  INFO      VRAM : 17.2 GB
+2026-03-25 18:02:51,234  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:02:51,238  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:02:51,238  INFO      Loading datasets...
+2026-03-25 18:02:51,261  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:02:51,261  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:02:51,261  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:02:51,375  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:02:51,375  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:02:51,375  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:02:51,375  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:02:57,286  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:02:57,309  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:02:57,310  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:02:57,647  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:07:41,034  INFO      ============================================================
+2026-03-25 18:07:41,034  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:07:41,034  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:07:41,034  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:07:41,034  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:07:41,034  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:07:41,034  INFO      Dry run     : True
+2026-03-25 18:07:41,034  INFO      Merge after : False
+2026-03-25 18:07:41,034  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:07:41,034  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:07:41,034  INFO      ============================================================
+2026-03-25 18:07:41,034  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:07:41,034  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:07:41,034  INFO      VRAM : 17.2 GB
+2026-03-25 18:07:41,054  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:07:41,056  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:07:41,056  INFO      Loading datasets...
+2026-03-25 18:07:41,077  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:07:41,077  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:07:41,077  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:07:41,188  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:07:41,188  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:07:41,188  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:07:41,188  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:07:47,070  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:07:47,094  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:07:47,094  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:07:47,434  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:09:34,087  INFO      ============================================================
+2026-03-25 18:09:34,087  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:09:34,087  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:09:34,087  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:09:34,087  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:09:34,087  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:09:34,087  INFO      Dry run     : True
+2026-03-25 18:09:34,087  INFO      Merge after : False
+2026-03-25 18:09:34,087  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:09:34,087  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:09:34,087  INFO      ============================================================
+2026-03-25 18:09:34,087  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:09:34,100  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:09:34,100  INFO      VRAM : 17.2 GB
+2026-03-25 18:09:34,110  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:09:34,112  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:09:34,112  INFO      Loading datasets...
+2026-03-25 18:09:34,136  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:09:34,136  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:09:34,136  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:09:34,243  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:09:34,243  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:09:34,243  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:09:34,243  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:09:40,107  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:09:40,128  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:09:40,128  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:09:40,459  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:12:33,412  INFO      ============================================================
+2026-03-25 18:12:33,412  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:12:33,412  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:12:33,412  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:12:33,412  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:12:33,412  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:12:33,412  INFO      Dry run     : True
+2026-03-25 18:12:33,412  INFO      Merge after : False
+2026-03-25 18:12:33,412  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:12:33,412  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:12:33,412  INFO      ============================================================
+2026-03-25 18:12:33,428  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:12:33,428  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:12:33,428  INFO      VRAM : 17.2 GB
+2026-03-25 18:12:33,439  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:12:33,441  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:12:33,441  INFO      Loading datasets...
+2026-03-25 18:12:33,470  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:12:33,472  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:12:33,472  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:12:33,575  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:12:33,576  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:12:33,576  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:12:33,576  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:12:39,496  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:12:39,516  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:12:39,516  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:12:39,870  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:12:40,056  INFO      Trainer built  |  steps_per_epoch=100  |  total_steps=300
+2026-03-25 18:12:40,056  INFO      ============================================================
+2026-03-25 18:12:40,056  INFO      Starting QLoRA fine-tuning
+2026-03-25 18:12:40,056  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:12:40,066  INFO      Epochs       : 3
+2026-03-25 18:12:40,066  INFO      Batch size   : 2 (effective: 16)
+2026-03-25 18:12:40,066  INFO      Learning rate: 0.0002
+2026-03-25 18:12:40,066  INFO      VRAM before training: 4.7 GB used
+2026-03-25 18:12:40,066  INFO      ============================================================
+2026-03-25 18:17:04,227  INFO      ============================================================
+2026-03-25 18:17:04,227  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:17:04,227  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:17:04,227  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:17:04,227  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:17:04,227  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:17:04,227  INFO      Dry run     : True
+2026-03-25 18:17:04,227  INFO      Merge after : False
+2026-03-25 18:17:04,227  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:17:04,227  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:17:04,227  INFO      ============================================================
+2026-03-25 18:17:04,227  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:17:04,227  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:17:04,227  INFO      VRAM : 17.2 GB
+2026-03-25 18:17:04,245  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:17:04,245  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:17:04,245  INFO      Loading datasets...
+2026-03-25 18:17:04,277  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:17:04,278  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:17:04,278  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:17:04,387  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:17:04,387  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:17:04,387  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:17:04,387  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:17:10,343  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:17:10,368  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:17:10,368  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:17:10,700  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:17:10,808  INFO      Trainer built  |  steps_per_epoch=100  |  total_steps=300
+2026-03-25 18:17:10,808  INFO      ============================================================
+2026-03-25 18:17:10,808  INFO      Starting QLoRA fine-tuning
+2026-03-25 18:17:10,808  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:17:10,808  INFO      Epochs       : 3
+2026-03-25 18:17:10,808  INFO      Batch size   : 2 (effective: 16)
+2026-03-25 18:17:10,808  INFO      Learning rate: 0.0002
+2026-03-25 18:17:10,808  INFO      VRAM before training: 4.7 GB used
+2026-03-25 18:17:10,808  INFO      ============================================================
+2026-03-25 18:26:51,012  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-25 18:26:51,012  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-25 18:26:51,012  INFO      ============================================================
+2026-03-25 18:26:51,012  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:26:51,012  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:26:51,012  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:26:51,012  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:26:51,012  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:26:51,012  INFO      Dry run     : True
+2026-03-25 18:26:51,012  INFO      Merge after : False
+2026-03-25 18:26:51,012  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:26:51,012  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:26:51,012  INFO      ============================================================
+2026-03-25 18:26:51,012  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:26:51,012  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:26:51,012  INFO      VRAM : 17.2 GB
+2026-03-25 18:26:51,030  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:26:51,033  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:26:51,033  INFO      Loading datasets...
+2026-03-25 18:26:51,056  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:26:51,059  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:26:51,060  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:26:51,164  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:26:51,164  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:26:51,164  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:26:51,165  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:26:57,092  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:26:57,114  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:26:57,114  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:26:57,454  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:26:57,565  INFO      Trainer built  |  steps_per_epoch=100  |  total_steps=300
+2026-03-25 18:26:57,565  INFO      ============================================================
+2026-03-25 18:26:57,565  INFO      Starting QLoRA fine-tuning
+2026-03-25 18:26:57,565  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:26:57,565  INFO      Epochs       : 3
+2026-03-25 18:26:57,565  INFO      Batch size   : 2 (effective: 16)
+2026-03-25 18:26:57,565  INFO      Learning rate: 0.0002
+2026-03-25 18:26:57,565  INFO      VRAM before training: 4.7 GB used
+2026-03-25 18:26:57,565  INFO      ============================================================
+2026-03-25 18:31:26,235  INFO      Training complete  |  elapsed=4.5 min  |  steps=39
+2026-03-25 18:31:26,235  INFO      VRAM after training: 4.8 GB used
+2026-03-25 18:33:58,538  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-25 18:33:58,538  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-25 18:33:58,540  INFO      ============================================================
+2026-03-25 18:33:58,540  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:33:58,540  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:33:58,540  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:33:58,540  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:33:58,540  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:33:58,540  INFO      Dry run     : True
+2026-03-25 18:33:58,540  INFO      Merge after : False
+2026-03-25 18:33:58,540  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:33:58,540  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:33:58,540  INFO      ============================================================
+2026-03-25 18:33:58,540  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:33:58,540  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:33:58,540  INFO      VRAM : 17.2 GB
+2026-03-25 18:33:58,551  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:33:58,554  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:33:58,554  INFO      Loading datasets...
+2026-03-25 18:33:58,576  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:33:58,583  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:33:58,584  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:33:58,686  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:33:58,686  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:33:58,686  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:33:58,686  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:34:04,582  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:34:04,613  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:34:04,613  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:34:04,945  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:34:05,071  INFO      Trainer built  |  steps_per_epoch=100  |  total_steps=300
+2026-03-25 18:34:05,071  INFO      ============================================================
+2026-03-25 18:34:05,071  INFO      Starting QLoRA fine-tuning
+2026-03-25 18:34:05,071  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:34:05,071  INFO      Epochs       : 3
+2026-03-25 18:34:05,071  INFO      Batch size   : 2 (effective: 16)
+2026-03-25 18:34:05,071  INFO      Learning rate: 0.0002
+2026-03-25 18:34:05,071  INFO      VRAM before training: 4.7 GB used
+2026-03-25 18:34:05,071  INFO      ============================================================
+2026-03-25 18:34:05,071  INFO      Resuming from checkpoint: C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal\checkpoint-39
+2026-03-25 18:36:54,447  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-25 18:36:54,447  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-25 18:36:54,447  INFO      ============================================================
+2026-03-25 18:36:54,447  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:36:54,447  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:36:54,447  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:36:54,447  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:36:54,447  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:36:54,447  INFO      Dry run     : True
+2026-03-25 18:36:54,447  INFO      Merge after : False
+2026-03-25 18:36:54,447  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:36:54,447  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:36:54,447  INFO      ============================================================
+2026-03-25 18:36:54,447  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:36:54,447  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:36:54,447  INFO      VRAM : 17.2 GB
+2026-03-25 18:36:54,447  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:36:54,461  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:36:54,461  INFO      Loading datasets...
+2026-03-25 18:36:54,487  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:36:54,487  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:36:54,487  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:36:54,586  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:36:54,586  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:36:54,586  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:36:54,586  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:37:00,589  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:37:00,612  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:37:00,612  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:37:00,949  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:37:01,078  INFO      Trainer built  |  steps_per_epoch=100  |  total_steps=300
+2026-03-25 18:37:01,078  INFO      ============================================================
+2026-03-25 18:37:01,078  INFO      Starting QLoRA fine-tuning
+2026-03-25 18:37:01,078  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:37:01,078  INFO      Epochs       : 3
+2026-03-25 18:37:01,078  INFO      Batch size   : 2 (effective: 16)
+2026-03-25 18:37:01,078  INFO      Learning rate: 0.0002
+2026-03-25 18:37:01,078  INFO      VRAM before training: 4.7 GB used
+2026-03-25 18:37:01,078  INFO      ============================================================
+2026-03-25 18:37:01,078  INFO      Dry run: skipping checkpoint resume.
+2026-03-25 18:41:30,751  INFO      Training complete  |  elapsed=4.5 min  |  steps=39
+2026-03-25 18:41:30,751  INFO      VRAM after training: 4.8 GB used
+2026-03-25 18:41:30,908  INFO      LoRA adapter saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:42:44,412  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-25 18:42:44,412  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-25 18:42:44,412  INFO      ============================================================
+2026-03-25 18:42:44,412  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-25 18:42:44,412  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:42:44,412  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-25 18:42:44,412  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-25 18:42:44,412  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:42:44,412  INFO      Dry run     : True
+2026-03-25 18:42:44,412  INFO      Merge after : False
+2026-03-25 18:42:44,412  INFO      DRY RUN — 200 samples, ~5 minutes
+2026-03-25 18:42:44,412  INFO      Run without --dry-run for full 4–6 hour training
+2026-03-25 18:42:44,412  INFO      ============================================================
+2026-03-25 18:42:44,412  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:42:44,412  INFO      GPU  : NVIDIA RTX A4000
+2026-03-25 18:42:44,412  INFO      VRAM : 17.2 GB
+2026-03-25 18:42:44,427  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-25 18:42:44,430  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-25 18:42:44,430  INFO      Loading datasets...
+2026-03-25 18:42:44,455  INFO      DRY RUN — truncating to 200 train + 50 val records
+2026-03-25 18:42:44,461  INFO      Dataset loaded  |  train=200  |  val=50
+2026-03-25 18:42:44,463  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:42:44,575  INFO      Set pad_token = eos_token (</s>)
+2026-03-25 18:42:44,576  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-25 18:42:44,576  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-25 18:42:44,576  INFO      VRAM before load: 0.0 GB used
+2026-03-25 18:42:50,743  INFO      VRAM after model load: 4.1 GB used
+2026-03-25 18:42:50,771  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-25 18:42:50,771  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-25 18:42:51,118  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-25 18:42:51,230  INFO      Trainer built  |  steps_per_epoch=100  |  total_steps=300
+2026-03-25 18:42:51,230  INFO      ============================================================
+2026-03-25 18:42:51,230  INFO      Starting QLoRA fine-tuning
+2026-03-25 18:42:51,230  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:42:51,230  INFO      Epochs       : 3
+2026-03-25 18:42:51,230  INFO      Batch size   : 2 (effective: 16)
+2026-03-25 18:42:51,230  INFO      Learning rate: 0.0002
+2026-03-25 18:42:51,230  INFO      VRAM before training: 4.7 GB used
+2026-03-25 18:42:51,230  INFO      ============================================================
+2026-03-25 18:42:51,230  INFO      Dry run: skipping checkpoint resume.
+2026-03-25 18:47:21,626  INFO      Training complete  |  elapsed=4.5 min  |  steps=39
+2026-03-25 18:47:21,626  INFO      VRAM after training: 4.8 GB used
+2026-03-25 18:47:21,793  INFO      LoRA adapter saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:47:21,793  INFO      Training manifest saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal\training_manifest.json
+2026-03-25 18:47:21,793  INFO      Running final evaluation on validation set...
+2026-03-25 18:47:28,425  INFO      Evaluation results:
+2026-03-25 18:47:28,425  INFO        eval_loss                      : 1.3499
+2026-03-25 18:47:28,425  INFO        eval_runtime                   : 6.6322
+2026-03-25 18:47:28,425  INFO        eval_samples_per_second        : 7.5390
+2026-03-25 18:47:28,425  INFO        eval_steps_per_second          : 3.7690
+2026-03-25 18:47:28,425  INFO      ============================================================
+2026-03-25 18:47:28,425  INFO      Inference smoke test — 3 test queries
+2026-03-25 18:47:28,425  INFO      ============================================================
+2026-03-25 18:47:37,432  INFO      
+  [1] Case : Maneka Gandhi vs Union Of India
+2026-03-25 18:47:37,432  INFO            Q    : What fundamental right did the Supreme Court expand in this case?
+2026-03-25 18:47:37,432  INFO            A    : The Supreme Court expanded the right to freedom of movement under Article 19(1)(d) of the Constitution to include the right to travel abroad.
+2026-03-25 18:47:39,894  INFO      
+  [2] Case : Gurbaksh Singh Sibbia vs State of Punjab
+2026-03-25 18:47:39,894  INFO            Q    : What did the Supreme Court rule regarding anticipatory bail?
+2026-03-25 18:47:39,894  INFO            A    : The Supreme Court ruled that the High Courts have the power to grant anticipatory bail under Section 439 of the CrPC.
+2026-03-25 18:47:43,510  INFO      
+  [3] Case : State of Punjab vs Rakesh Kumar
+2026-03-25 18:47:43,510  INFO            Q    : What were the respondents convicted of?
+2026-03-25 18:47:43,510  INFO            A    : The respondents were convicted of the offences under Sections 302/149, 325/149, and 326/149 of the IPC.
+2026-03-25 18:47:43,651  INFO      ============================================================
+2026-03-25 18:47:43,651  INFO      Smoke test complete
+2026-03-25 18:47:43,651  INFO      ============================================================
+2026-03-25 18:47:43,651  INFO      Fine-tuning complete
+2026-03-25 18:47:43,651  INFO      LoRA adapter : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-25 18:47:43,651  INFO      Train loss   : 1.0590
+2026-03-25 18:47:43,651  INFO      Eval loss    : 1.3499
+2026-03-25 18:47:43,651  INFO      
+2026-03-25 18:47:43,651  INFO      Next steps:
+2026-03-25 18:47:43,651  INFO        1. Check eval_loss — target: 0.8–1.2 after 3 epochs
+2026-03-25 18:47:43,651  INFO        2. Run with --merge to create standalone model
+2026-03-25 18:47:43,651  INFO        3. Convert to GGUF for Ollama:
+2026-03-25 18:47:43,665  INFO             python convert_hf_to_gguf.py C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal_merged \
+2026-03-25 18:47:43,665  INFO               --outfile saullm_indic_legal_q4.gguf \
+2026-03-25 18:47:43,665  INFO               --outtype q4_K_M
+2026-03-25 18:47:43,665  INFO        4. Load in Ollama:
+2026-03-25 18:47:43,665  INFO             ollama create saullm-legal -f Modelfile
+2026-03-25 18:47:43,665  INFO      ============================================================
+2026-03-26 10:00:29,277  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-26 10:00:29,277  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-26 10:00:29,277  INFO      ============================================================
+2026-03-26 10:00:29,277  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-26 10:00:29,277  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 10:00:29,277  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-26 10:00:29,277  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-26 10:00:29,277  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 10:00:29,277  INFO      Dry run     : False
+2026-03-26 10:00:29,277  INFO      Merge after : False
+2026-03-26 10:00:29,277  INFO      ============================================================
+2026-03-26 10:00:29,277  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 10:00:29,277  INFO      GPU  : NVIDIA RTX A4000
+2026-03-26 10:00:29,277  INFO      VRAM : 17.2 GB
+2026-03-26 10:00:29,287  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-26 10:00:29,288  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-26 10:00:29,288  INFO      Loading datasets...
+2026-03-26 10:00:29,312  INFO      Dataset loaded  |  train=8001  |  val=2001
+2026-03-26 10:00:29,312  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 10:00:29,419  INFO      Set pad_token = eos_token (</s>)
+2026-03-26 10:00:29,419  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-26 10:00:29,419  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 10:00:29,419  INFO      VRAM before load: 0.0 GB used
+2026-03-26 10:00:35,471  INFO      VRAM after model load: 4.1 GB used
+2026-03-26 10:00:35,495  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-26 10:00:35,495  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-26 10:00:35,846  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-26 10:00:38,058  INFO      Trainer built  |  steps_per_epoch=4001  |  total_steps=12003
+2026-03-26 10:00:38,060  INFO      ============================================================
+2026-03-26 10:00:38,060  INFO      Starting QLoRA fine-tuning
+2026-03-26 10:00:38,060  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 10:00:38,060  INFO      Epochs       : 3
+2026-03-26 10:00:38,060  INFO      Batch size   : 2 (effective: 16)
+2026-03-26 10:00:38,060  INFO      Learning rate: 0.0002
+2026-03-26 10:00:38,061  INFO      VRAM before training: 4.7 GB used
+2026-03-26 10:00:38,061  INFO      ============================================================
+2026-03-26 10:00:38,061  WARNING   Checkpoint resume disabled because torch 2.5.1+cu121 is below 2.6 and transformers blocks torch.load for security reasons (CVE-2025-32434). Upgrade torch to >=2.6 to resume from optimizer state.
+2026-03-26 13:33:03,548  INFO      Training complete  |  elapsed=212.4 min  |  steps=1503
+2026-03-26 13:33:03,548  INFO      VRAM after training: 4.9 GB used
+2026-03-26 13:33:03,751  INFO      LoRA adapter saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 13:33:03,751  INFO      Training manifest saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal\training_manifest.json
+2026-03-26 13:33:03,751  INFO      Running final evaluation on validation set...
+2026-03-26 13:37:37,371  INFO      Evaluation results:
+2026-03-26 13:37:37,371  INFO        eval_loss                      : 1.0906
+2026-03-26 13:37:37,371  INFO        eval_runtime                   : 273.6060
+2026-03-26 13:37:37,371  INFO        eval_samples_per_second        : 7.3130
+2026-03-26 13:37:37,371  INFO        eval_steps_per_second          : 3.6590
+2026-03-26 13:37:37,371  INFO      ============================================================
+2026-03-26 13:37:37,371  INFO      Inference smoke test — 3 test queries
+2026-03-26 13:37:37,371  INFO      ============================================================
+2026-03-26 13:37:47,593  INFO      
+  [1] Case : Maneka Gandhi vs Union Of India
+2026-03-26 13:37:47,593  INFO            Q    : What fundamental right did the Supreme Court expand in this case?
+2026-03-26 13:37:47,593  INFO            A    : The Supreme Court expanded the fundamental right to life under Article 21 of the Constitution to include the right to live with dignity, thereby incorporating social and economic rights into the scope of this fundamental right.
+2026-03-26 13:37:51,286  INFO      
+  [2] Case : Gurbaksh Singh Sibbia vs State of Punjab
+2026-03-26 13:37:51,286  INFO            Q    : What did the Supreme Court rule regarding anticipatory bail?
+2026-03-26 13:37:51,286  INFO            A    : The Supreme Court ruled that the High Court was justified in granting anticipatory bail to Gurbaksh Singh Sibbia, as the allegations did not disclose any specific role attributed to him.
+2026-03-26 13:37:56,153  INFO      
+  [3] Case : State of Punjab vs Rakesh Kumar
+2026-03-26 13:37:56,153  INFO            Q    : What were the respondents convicted of?
+2026-03-26 13:37:56,153  INFO            A    : The respondents were convicted under Section 20(b)(ii)(c) of the Narcotic Drugs and Psychotropic Substances Act, 1985 (NDPS Act) for possession of 1000 grams of charas.
+2026-03-26 13:37:56,288  INFO      ============================================================
+2026-03-26 13:37:56,288  INFO      Smoke test complete
+2026-03-26 13:37:56,288  INFO      ============================================================
+2026-03-26 13:37:56,288  INFO      Fine-tuning complete
+2026-03-26 13:37:56,288  INFO      LoRA adapter : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 13:37:56,288  INFO      Train loss   : 0.7217
+2026-03-26 13:37:56,288  INFO      Eval loss    : 1.0906
+2026-03-26 13:37:56,288  INFO      
+2026-03-26 13:37:56,288  INFO      Next steps:
+2026-03-26 13:37:56,288  INFO        1. Check eval_loss — target: 0.8–1.2 after 3 epochs
+2026-03-26 13:37:56,288  INFO        2. Run with --merge to create standalone model
+2026-03-26 13:37:56,288  INFO        3. Convert to GGUF for Ollama:
+2026-03-26 13:37:56,288  INFO             python convert_hf_to_gguf.py C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal_merged \
+2026-03-26 13:37:56,288  INFO               --outfile saullm_indic_legal_q4.gguf \
+2026-03-26 13:37:56,288  INFO               --outtype q4_K_M
+2026-03-26 13:37:56,288  INFO        4. Load in Ollama:
+2026-03-26 13:37:56,288  INFO             ollama create saullm-legal -f Modelfile
+2026-03-26 13:37:56,288  INFO      ============================================================
+2026-03-26 14:15:19,174  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-26 14:15:19,174  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-26 14:15:19,174  INFO      ============================================================
+2026-03-26 14:15:19,174  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-26 14:15:19,174  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 14:15:19,174  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-26 14:15:19,174  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-26 14:15:19,174  INFO      Output dir  : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 14:15:19,174  INFO      Dry run     : False
+2026-03-26 14:15:19,174  INFO      Merge after : True
+2026-03-26 14:15:19,174  INFO      ============================================================
+2026-03-26 14:15:19,174  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 14:15:19,174  INFO      GPU  : NVIDIA RTX A4000
+2026-03-26 14:15:19,176  INFO      VRAM : 17.2 GB
+2026-03-26 14:15:19,200  INFO      Train file: 8001 records  (C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl)
+2026-03-26 14:15:19,229  INFO      Val file: 2001 records  (C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl)
+2026-03-26 14:15:19,229  INFO      Loading datasets...
+2026-03-26 14:15:19,260  INFO      Dataset loaded  |  train=8001  |  val=2001
+2026-03-26 14:15:19,260  INFO      Loading tokenizer from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 14:15:19,377  INFO      Set pad_token = eos_token (</s>)
+2026-03-26 14:15:19,377  INFO      Tokenizer loaded  |  vocab_size=32000  |  pad='</s>'
+2026-03-26 14:15:19,377  INFO      Loading model from local path: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 14:15:19,377  INFO      VRAM before load: 0.0 GB used
+2026-03-26 14:15:25,571  INFO      VRAM after model load: 4.1 GB used
+2026-03-26 14:15:25,593  INFO      Model loaded  |  params=3.8B  |  dtype=torch.float32
+2026-03-26 14:15:25,593  INFO      Applying LoRA adapters  |  rank=16  |  alpha=32
+2026-03-26 14:15:25,930  INFO      LoRA applied  |  trainable=41.9M  |  total=3.79B  |  1.1055%
+2026-03-26 14:15:26,157  INFO      Trainer built  |  steps_per_epoch=4001  |  total_steps=12003
+2026-03-26 14:15:26,157  INFO      ============================================================
+2026-03-26 14:15:26,157  INFO      Starting QLoRA fine-tuning
+2026-03-26 14:15:26,157  INFO      Output dir   : C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 14:15:26,157  INFO      Epochs       : 3
+2026-03-26 14:15:26,158  INFO      Batch size   : 2 (effective: 16)
+2026-03-26 14:15:26,158  INFO      Learning rate: 0.0002
+2026-03-26 14:15:26,158  INFO      VRAM before training: 4.7 GB used
+2026-03-26 14:15:26,158  INFO      ============================================================
+2026-03-26 14:15:26,158  WARNING   Checkpoint resume disabled because torch 2.5.1+cu121 is below 2.6 and transformers blocks torch.load for security reasons (CVE-2025-32434). Upgrade torch to >=2.6 to resume from optimizer state.
+2026-03-26 17:47:36,736  INFO      Training complete  |  elapsed=212.2 min  |  steps=1503
+2026-03-26 17:47:36,736  INFO      VRAM after training: 4.9 GB used
+2026-03-26 17:47:36,957  INFO      LoRA adapter saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal
+2026-03-26 17:47:36,957  INFO      Training manifest saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal\training_manifest.json
+2026-03-26 17:47:36,961  INFO      Running final evaluation on validation set...
+2026-03-26 17:52:10,524  INFO      Evaluation results:
+2026-03-26 17:52:10,524  INFO        eval_loss                      : 1.0915
+2026-03-26 17:52:10,524  INFO        eval_runtime                   : 273.5628
+2026-03-26 17:52:10,524  INFO        eval_samples_per_second        : 7.3150
+2026-03-26 17:52:10,524  INFO        eval_steps_per_second          : 3.6590
+2026-03-26 17:52:10,524  INFO      ============================================================
+2026-03-26 17:52:10,524  INFO      Inference smoke test — 3 test queries
+2026-03-26 17:52:10,524  INFO      ============================================================
+2026-03-26 17:52:21,368  INFO      
+  [1] Case : Maneka Gandhi vs Union Of India
+2026-03-26 17:52:21,368  INFO            Q    : What fundamental right did the Supreme Court expand in this case?
+2026-03-26 17:52:21,368  INFO            A    : The Supreme Court expanded the fundamental right of free speech and expression to include the right to access public places, thereby including within the ambit of Article 19(1)(a) the right to enter public places such as restaurants and theaters.
+2026-03-26 17:52:24,464  INFO      
+  [2] Case : Gurbaksh Singh Sibbia vs State of Punjab
+2026-03-26 17:52:24,464  INFO            Q    : What did the Supreme Court rule regarding anticipatory bail?
+2026-03-26 17:52:24,464  INFO            A    : The Supreme Court ruled that anticipatory bail should be granted sparingly and only in exceptional circumstances to prevent abuse of the process of law or to secure the ends of justice.
+2026-03-26 17:52:29,246  INFO      
+  [3] Case : State of Punjab vs Rakesh Kumar
+2026-03-26 17:52:29,246  INFO            Q    : What were the respondents convicted of?
+2026-03-26 17:52:29,246  INFO            A    : The respondents were convicted under Section 20(b)(ii)(c) of the Narcotic Drugs and Psychotropic Substances Act, 1985 (NDPS Act) for possession of 1000 grams of charas.
+2026-03-26 17:52:29,379  INFO      ============================================================
+2026-03-26 17:52:29,379  INFO      Smoke test complete
+2026-03-26 17:52:29,379  INFO      Merging LoRA adapters into base model...
+2026-03-26 17:52:29,379  INFO      VRAM before merge: 4.9 GB used
+2026-03-26 17:52:36,316  WARNING   Some parameters are on the meta device because they were offloaded to the cpu.
+2026-03-26 17:52:36,983  INFO      We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2026-03-26 18:05:23,283  INFO      Precision mode: bf16 (AMP scaler disabled)
+2026-03-26 18:05:23,283  INFO      4-bit compute dtype: torch.bfloat16
+2026-03-26 18:05:23,283  INFO      ============================================================
+2026-03-26 18:05:23,283  INFO      finetune.py — QLoRA fine-tuning  (LOCAL MODEL)
+2026-03-26 18:05:23,283  INFO      Model path  : C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 18:05:23,283  INFO      Train file  : C:\Umesh\project_RAG\supreme_court_judgments\train_dataset.jsonl
+2026-03-26 18:05:23,283  INFO      Val file    : C:\Umesh\project_RAG\supreme_court_judgments\val_dataset.jsonl
+2026-03-26 18:05:23,283  INFO      Output dir  : saullm_indic_legal
+2026-03-26 18:05:23,283  INFO      Dry run     : False
+2026-03-26 18:05:23,287  INFO      Merge after : False
+2026-03-26 18:05:23,287  INFO      Merge only  : True
+2026-03-26 18:05:23,287  INFO      ============================================================
+2026-03-26 18:05:23,287  INFO      Local model folder verified: C:\Umesh\project_RAG\supreme_court_judgments\.hf_models\Saul-7B-Base
+2026-03-26 18:05:23,287  INFO      Merging LoRA adapters into base model...
+2026-03-26 18:05:23,287  INFO      VRAM before merge: 0.0 GB used
+2026-03-26 18:05:23,287  INFO      Merge load device_map: {'': 0}
+2026-03-26 18:05:44,256  INFO      Merged model saved → C:\Umesh\project_RAG\supreme_court_judgments\saullm_indic_legal_merged  (14.5 GB)
+2026-03-26 18:05:44,442  INFO      Merge-only complete
