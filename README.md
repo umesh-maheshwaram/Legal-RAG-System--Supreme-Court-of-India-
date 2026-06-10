@@ -67,7 +67,7 @@ Filenames follow the convention `<Petitioner>_vs_<Respondent>_on_<Date>_<Seq>.PD
 | **Fine-tuning** | QLoRA — 4-bit NF4, LoRA r=16 / α=32, 3 epochs |
 | **LLM serving** | Ollama (GGUF Q4_K_M quantisation) |
 | **Web UI** | Gradio |
-| **Hardware** | NVIDIA RTX A4000 17.2 GB · i9-14900K · 42 GB RAM |
+| **Hardware** | NVIDIA RTX A4000 16 GB · i9-14900K · 64 GB RAM |
 
 ---
 
